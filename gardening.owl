@@ -1,0 +1,538 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.example.org/ontologies/GardeningOntology.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.example.org/ontologies/GardeningOntology.owl">
+    <Prefix name="" IRI="http://www.example.org/ontologies/GardeningOntology.owl/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en">This is a simple ontology for garderning domain.</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="/Animal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Arm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Artifact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Background"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Bicycle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Bracelet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Car"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Cat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Foot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/GrassSurface"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/GroundSurface"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Hand"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/HandFork"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Hedgehog"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/House"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Human"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/HumanBodyPart"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Jacket"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Leaf"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Leg"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/LivingEntity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Pant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/PersonalItem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Rake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/RelationalEntity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Shed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Shoe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Shovel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Sky"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/SoilSurface"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Structure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/StuffedToy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Tool"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Toy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Tree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Trowel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Vegetation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Vehicle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Watch"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/above"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/behind"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/inFrontOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/locatedOn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/near"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/nextTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/on"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/partOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/touching"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/under"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/onGroundSurface"/>
+    </Declaration>   
+    <SubClassOf>
+        <Class IRI="/PathSurface"/>
+        <Class IRI="/GroundSurface"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Animal"/>
+        <Class IRI="/LivingEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Arm"/>
+        <Class IRI="/HumanBodyPart"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Artifact"/>
+        <Class IRI="/RelationalEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Bicycle"/>
+        <Class IRI="/Vehicle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Bracelet"/>
+        <Class IRI="/PersonalItem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Car"/>
+        <Class IRI="/Vehicle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Cat"/>
+        <Class IRI="/Animal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Foot"/>
+        <Class IRI="/HumanBodyPart"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/GrassSurface"/>
+        <Class IRI="/GroundSurface"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/GroundSurface"/>
+        <Class IRI="/RelationalEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Hand"/>
+        <Class IRI="/HumanBodyPart"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/HandFork"/>
+        <Class IRI="/Tool"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Hedgehog"/>
+        <Class IRI="/Animal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/House"/>
+        <Class IRI="/Structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Human"/>
+        <Class IRI="/LivingEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/HumanBodyPart"/>
+        <Class IRI="/RelationalEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Jacket"/>
+        <Class IRI="/PersonalItem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Leaf"/>
+        <Class IRI="/Vegetation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Leg"/>
+        <Class IRI="/HumanBodyPart"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/LivingEntity"/>
+        <Class IRI="/RelationalEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Pant"/>
+        <Class IRI="/PersonalItem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/PersonalItem"/>
+        <Class IRI="/Artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Rake"/>
+        <Class IRI="/Tool"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Shed"/>
+        <Class IRI="/Structure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Shoe"/>
+        <Class IRI="/PersonalItem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Shovel"/>
+        <Class IRI="/Tool"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Sky"/>
+        <Class IRI="/Background"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/SoilSurface"/>
+        <Class IRI="/GroundSurface"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Structure"/>
+        <Class IRI="/Artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/StuffedToy"/>
+        <Class IRI="/Toy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Tool"/>
+        <Class IRI="/Artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Toy"/>
+        <Class IRI="/Artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Tree"/>
+        <Class IRI="/Vegetation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Trowel"/>
+        <Class IRI="/Tool"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Vegetation"/>
+        <Class IRI="/RelationalEntity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Vehicle"/>
+        <Class IRI="/Artifact"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Watch"/>
+        <Class IRI="/PersonalItem"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="/Artifact"/>
+        <Class IRI="/GroundSurface"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Background"/>
+        <Class IRI="/RelationalEntity"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/GroundSurface"/>
+        <Class IRI="/HumanBodyPart"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/GroundSurface"/>
+        <Class IRI="/LivingEntity"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/GroundSurface"/>
+        <Class IRI="/Vegetation"/>
+    </DisjointClasses>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/onGroundSurface"/>
+        <ObjectProperty IRI="/on"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/locatedOn"/>
+        <ObjectProperty IRI="/on"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="/above"/>
+        <ObjectProperty IRI="/under"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="/behind"/>
+        <ObjectProperty IRI="/inFrontOf"/>
+    </InverseObjectProperties>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="/near"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="/nextTo"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="/touching"/>
+    </SymmetricObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/onGroundSurface"/>
+        <Class IRI="/RelationalEntity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/above"/>
+        <ObjectIntersectionOf>
+            <Class IRI="/RelationalEntity"/>
+            <ObjectComplementOf>
+                <Class IRI="/GroundSurface"/>
+            </ObjectComplementOf>
+        </ObjectIntersectionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/behind"/>
+        <ObjectIntersectionOf>
+            <Class IRI="/RelationalEntity"/>
+            <ObjectComplementOf>
+                <Class IRI="/GroundSurface"/>
+            </ObjectComplementOf>
+        </ObjectIntersectionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/inFrontOf"/>
+        <ObjectIntersectionOf>
+            <Class IRI="/RelationalEntity"/>
+            <ObjectComplementOf>
+                <Class IRI="/GroundSurface"/>
+            </ObjectComplementOf>
+        </ObjectIntersectionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/locatedOn"/>
+        <Class IRI="/HumanBodyPart"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/locatedOn"/>
+        <Class IRI="/LivingEntity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/near"/>
+        <ObjectIntersectionOf>
+            <Class IRI="/RelationalEntity"/>
+            <ObjectComplementOf>
+                <Class IRI="/GroundSurface"/>
+            </ObjectComplementOf>
+        </ObjectIntersectionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/nextTo"/>
+        <ObjectIntersectionOf>
+            <Class IRI="/RelationalEntity"/>
+            <ObjectComplementOf>
+                <Class IRI="/GroundSurface"/>
+            </ObjectComplementOf>
+        </ObjectIntersectionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/on"/>
+        <ObjectIntersectionOf>
+            <Class IRI="/RelationalEntity"/>
+            <ObjectComplementOf>
+                <Class IRI="/GroundSurface"/>
+            </ObjectComplementOf>
+        </ObjectIntersectionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/partOf"/>
+        <Class IRI="/HumanBodyPart"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/touching"/>
+        <ObjectIntersectionOf>
+            <Class IRI="/RelationalEntity"/>
+            <ObjectComplementOf>
+                <Class IRI="/GroundSurface"/>
+            </ObjectComplementOf>
+        </ObjectIntersectionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/under"/>
+        <ObjectIntersectionOf>
+            <Class IRI="/RelationalEntity"/>
+            <ObjectComplementOf>
+                <Class IRI="/GroundSurface"/>
+            </ObjectComplementOf>
+        </ObjectIntersectionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/onGroundSurface"/>
+        <Class IRI="/GroundSurface"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/above"/>
+        <ObjectIntersectionOf>
+            <Class IRI="/RelationalEntity"/>
+            <ObjectComplementOf>
+                <Class IRI="/GroundSurface"/>
+            </ObjectComplementOf>
+        </ObjectIntersectionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/behind"/>
+        <ObjectIntersectionOf>
+            <Class IRI="/RelationalEntity"/>
+            <ObjectComplementOf>
+                <Class IRI="/GroundSurface"/>
+            </ObjectComplementOf>
+        </ObjectIntersectionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/inFrontOf"/>
+        <ObjectIntersectionOf>
+            <Class IRI="/RelationalEntity"/>
+            <ObjectComplementOf>
+                <Class IRI="/GroundSurface"/>
+            </ObjectComplementOf>
+        </ObjectIntersectionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/locatedOn"/>
+        <Class IRI="/GroundSurface"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/near"/>
+        <ObjectIntersectionOf>
+            <Class IRI="/RelationalEntity"/>
+            <ObjectComplementOf>
+                <Class IRI="/GroundSurface"/>
+            </ObjectComplementOf>
+        </ObjectIntersectionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/nextTo"/>
+        <ObjectIntersectionOf>
+            <Class IRI="/RelationalEntity"/>
+            <ObjectComplementOf>
+                <Class IRI="/GroundSurface"/>
+            </ObjectComplementOf>
+        </ObjectIntersectionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/on"/>
+        <Class IRI="/RelationalEntity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/partOf"/>
+        <Class IRI="/Human"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/touching"/>
+        <ObjectIntersectionOf>
+            <Class IRI="/RelationalEntity"/>
+            <ObjectComplementOf>
+                <Class IRI="/GroundSurface"/>
+            </ObjectComplementOf>
+        </ObjectIntersectionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/under"/>
+        <ObjectIntersectionOf>
+            <Class IRI="/RelationalEntity"/>
+            <ObjectComplementOf>
+                <Class IRI="/GroundSurface"/>
+            </ObjectComplementOf>
+        </ObjectIntersectionOf>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

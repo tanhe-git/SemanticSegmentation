@@ -1,0 +1,241 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ex: <http://www.example.org/scene/> .
+@prefix ont: <http://www.example.org/ontologies/GardeningOntology.owl/> .
+
+ex:SceneGraphShape
+    a sh:NodeShape ;
+    sh:targetClass ex:SceneGraph ;
+    sh:sparql [
+        sh:message "Every scene graph must include at least one GroundSurface object." ;
+        sh:select """
+            SELECT $this
+            WHERE {
+              FILTER NOT EXISTS {
+                $this ex:hasObject ?surface .
+                ?surface rdf:type/rdfs:subClassOf* ont:GroundSurface .
+              }
+            }
+        """ ;
+    ] ;
+    sh:sparql [
+        sh:message "Every non-Sky object must participate in at least one relation." ;
+        sh:select """
+            SELECT $this
+            WHERE {
+              $this ex:hasObject ?obj .
+              FILTER NOT EXISTS { ?obj rdf:type/rdfs:subClassOf* ont:Sky . }
+              FILTER NOT EXISTS {
+                {
+                  $this ex:hasRelation ?rel .
+                  ?rel ex:subject ?obj .
+                }
+                UNION
+                {
+                  $this ex:hasRelation ?rel .
+                  ?rel ex:object ?obj .
+                }
+              }
+            }
+        """ ;
+    ] ;
+    sh:sparql [
+        sh:message "All non-Sky objects must form a connected acyclic graph." ;
+        sh:select """
+            SELECT $this
+            WHERE {
+              {
+                SELECT $this
+                       (COUNT(DISTINCT ?obj) AS ?objects)
+                       (COUNT(DISTINCT ?rel) AS ?relations)
+                WHERE {
+                  $this ex:hasObject ?obj .
+                  FILTER NOT EXISTS { ?obj rdf:type/rdfs:subClassOf* ont:Sky . }
+                  OPTIONAL {
+                    $this ex:hasRelation ?rel .
+                    ?rel ex:subject ?subj ;
+                         ex:object ?obj2 .
+                    FILTER NOT EXISTS { ?subj rdf:type/rdfs:subClassOf* ont:Sky . }
+                    FILTER NOT EXISTS { ?obj2 rdf:type/rdfs:subClassOf* ont:Sky . }
+                  }
+                }
+                GROUP BY $this
+              }
+              FILTER (?objects > 0 && ?relations != (?objects - 1))
+            }
+        """ ;
+    ] ;
+    sh:sparql [
+        sh:message "If a scene contains both a human body part and a human, the body part must be linked to a human in the same scene via partOf." ;
+        sh:select """
+            SELECT DISTINCT $this
+            WHERE {
+              $this ex:hasObject ?part .
+              ?part rdf:type/rdfs:subClassOf* ont:HumanBodyPart .
+              $this ex:hasObject ?human .
+              ?human rdf:type/rdfs:subClassOf* ont:Human .
+              FILTER NOT EXISTS {
+                ?part ont:partOf ?scene_human .
+                $this ex:hasObject ?scene_human .
+                ?scene_human rdf:type/rdfs:subClassOf* ont:Human .
+              }
+            }
+        """ ;
+    ] .
+
+ex:NonGroundSurfaceObjectShape
+    a sh:NodeShape ;
+    sh:targetObjectsOf ont:above, ont:behind, ont:inFrontOf, ont:near, ont:nextTo, ont:touching, ont:under ;
+    sh:not [
+        sh:class ont:GroundSurface ;
+    ] .
+
+ex:NonGroundSurfaceSubjectShape
+    a sh:NodeShape ;
+    sh:targetSubjectsOf ont:above, ont:behind, ont:inFrontOf, ont:near, ont:nextTo, ont:touching, ont:under ;
+    sh:not [
+        sh:class ont:GroundSurface ;
+    ] .
+
+ex:GroundSurfacePlacementObjectShape
+    a sh:NodeShape ;
+    sh:targetObjectsOf ont:on, ont:onGroundSurface, ont:locatedOn ;
+    sh:class ont:GroundSurface .
+
+ex:PlacementSubjectNotGroundSurfaceShape
+    a sh:NodeShape ;
+    sh:targetSubjectsOf ont:on, ont:onGroundSurface, ont:locatedOn ;
+    sh:not [
+        sh:class ont:GroundSurface ;
+    ] .
+
+ex:HumanGroundingShape
+    a sh:NodeShape ;
+    sh:targetClass ont:Human ;
+    sh:or (
+        [
+            sh:property [
+                sh:path ont:locatedOn ;
+                sh:minCount 1 ;
+                sh:maxCount 3 ;
+                sh:class ont:GroundSurface ;
+            ]
+        ]
+        [
+            sh:property [
+                sh:path ont:onGroundSurface ;
+                sh:minCount 1 ;
+                sh:maxCount 3 ;
+                sh:class ont:GroundSurface ;
+            ]
+        ]
+    ) .
+
+ex:HumanBodyPartGroundingShape
+    a sh:NodeShape ;
+    sh:targetClass ont:HumanBodyPart ;
+    sh:or (
+        [
+            sh:property [
+                sh:path ont:locatedOn ;
+                sh:minCount 1 ;
+                sh:maxCount 3 ;
+                sh:class ont:GroundSurface ;
+            ]
+        ]
+        [
+            sh:property [
+                sh:path ont:onGroundSurface ;
+                sh:minCount 1 ;
+                sh:maxCount 3 ;
+                sh:class ont:GroundSurface ;
+            ]
+        ]
+    ) .
+
+ex:AnimalGroundingShape
+    a sh:NodeShape ;
+    sh:targetClass ont:Animal ;
+    sh:or (
+        [
+            sh:property [
+                sh:path ont:onGroundSurface ;
+                sh:minCount 1 ;
+                sh:maxCount 3 ;
+                sh:class ont:GroundSurface ;
+            ]
+        ]
+        [
+            sh:property [
+                sh:path ont:locatedOn ;
+                sh:minCount 1 ;
+                sh:maxCount 3 ;
+                sh:class ont:GroundSurface ;
+            ]
+        ]
+    ) .
+
+ex:ToolGroundingShape
+    a sh:NodeShape ;
+    sh:targetClass ont:Tool ;
+    sh:or (
+        [
+            sh:property [
+                sh:path ont:onGroundSurface ;
+                sh:minCount 1 ;
+                sh:maxCount 3 ;
+                sh:class ont:GroundSurface ;
+            ]
+        ]
+        [
+            sh:property [
+                sh:path ont:on ;
+                sh:minCount 1 ;
+                sh:maxCount 3 ;
+                sh:class ont:RelationalEntity ;
+            ]
+        ]
+    ) .
+
+ex:PortableArtifactGroundingShape
+    a sh:NodeShape ;
+    sh:targetClass ont:Toy, ont:PersonalItem, ont:Vehicle ;
+    sh:or (
+        [
+            sh:property [
+                sh:path ont:onGroundSurface ;
+                sh:minCount 1 ;
+                sh:maxCount 3 ;
+                sh:class ont:GroundSurface ;
+            ]
+        ]
+        [
+            sh:property [
+                sh:path ont:on ;
+                sh:minCount 1 ;
+                sh:maxCount 3 ;
+                sh:class ont:RelationalEntity ;
+            ]
+        ]
+    ) .
+
+ex:StructureGroundingShape
+    a sh:NodeShape ;
+    sh:targetClass ont:Structure ;
+    sh:property [
+        sh:path ont:onGroundSurface ;
+        sh:minCount 1 ;
+        sh:maxCount 2 ;
+        sh:class ont:GroundSurface ;
+    ] .
+
+ex:VegetationGroundingShape
+    a sh:NodeShape ;
+    sh:targetClass ont:Vegetation ;
+    sh:property [
+        sh:path ont:onGroundSurface ;
+        sh:minCount 1 ;
+        sh:maxCount 3 ;
+        sh:class ont:GroundSurface ;
+    ] .
