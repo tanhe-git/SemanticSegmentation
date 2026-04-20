@@ -1,0 +1,654 @@
+{
+  "scene_id": "scene_010",
+  "image_path": "/data/upload/3/0aa8724f-scene_010.png",
+  "objects": [
+    {
+      "polygon_id": "321vmMd3Yo",
+      "object_id": "tool_1",
+      "class_name": "Tool",
+      "image_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "polygon_percent": [
+        [
+          36.81948424068768,
+          68.0515759312321
+        ],
+        [
+          55.587392550143264,
+          61.174785100286535
+        ],
+        [
+          70.48710601719198,
+          39.97134670487106
+        ],
+        [
+          69.34097421203438,
+          37.106017191977074
+        ],
+        [
+          76.07449856733524,
+          21.63323782234957
+        ],
+        [
+          72.77936962750717,
+          15.902578796561603
+        ],
+        [
+          68.76790830945558,
+          17.191977077363894
+        ],
+        [
+          57.44985673352435,
+          32.37822349570201
+        ],
+        [
+          49.28366762177651,
+          33.95415472779369
+        ],
+        [
+          31.94842406876791,
+          52.865329512893986
+        ],
+        [
+          30.659025787965614,
+          64.46991404011462
+        ]
+      ],
+      "polygon_pixels": [
+        [
+          377,
+          697
+        ],
+        [
+          569,
+          626
+        ],
+        [
+          722,
+          409
+        ],
+        [
+          710,
+          380
+        ],
+        [
+          779,
+          222
+        ],
+        [
+          745,
+          163
+        ],
+        [
+          704,
+          176
+        ],
+        [
+          588,
+          332
+        ],
+        [
+          505,
+          348
+        ],
+        [
+          327,
+          541
+        ],
+        [
+          314,
+          660
+        ]
+      ],
+      "bbox": {
+        "x_min": 314,
+        "y_min": 163,
+        "x_max": 779,
+        "y_max": 697
+      }
+    },
+    {
+      "polygon_id": "9Q1O3pA_b5",
+      "object_id": "tool_2",
+      "class_name": "Tool",
+      "image_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "polygon_percent": [
+        [
+          61.891117478510026,
+          64.04011461318052
+        ],
+        [
+          94.12607449856733,
+          63.323782234957015
+        ],
+        [
+          91.11747851002865,
+          47.134670487106014
+        ],
+        [
+          87.53581661891118,
+          43.40974212034384
+        ],
+        [
+          79.65616045845272,
+          41.54727793696275
+        ],
+        [
+          78.22349570200574,
+          26.07449856733524
+        ],
+        [
+          74.06876790830945,
+          26.36103151862464
+        ],
+        [
+          71.77650429799426,
+          30.229226361031518
+        ],
+        [
+          70.48710601719198,
+          41.977077363896846
+        ],
+        [
+          66.7621776504298,
+          44.84240687679083
+        ],
+        [
+          63.89684813753582,
+          48.99713467048711
+        ]
+      ],
+      "polygon_pixels": [
+        [
+          634,
+          656
+        ],
+        [
+          964,
+          648
+        ],
+        [
+          933,
+          483
+        ],
+        [
+          896,
+          445
+        ],
+        [
+          816,
+          425
+        ],
+        [
+          801,
+          267
+        ],
+        [
+          758,
+          270
+        ],
+        [
+          735,
+          310
+        ],
+        [
+          722,
+          430
+        ],
+        [
+          684,
+          459
+        ],
+        [
+          654,
+          502
+        ]
+      ],
+      "bbox": {
+        "x_min": 634,
+        "y_min": 267,
+        "x_max": 964,
+        "y_max": 656
+      }
+    },
+    {
+      "polygon_id": "QU-iG2nqYU",
+      "object_id": "humanbodypart_1",
+      "class_name": "HumanBodyPart",
+      "image_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "polygon_percent": [
+        [
+          91.54727793696274,
+          48.99713467048711
+        ],
+        [
+          99.8567335243553,
+          51.719197707736384
+        ],
+        [
+          99.2836676217765,
+          12.464183381088825
+        ],
+        [
+          95.98853868194843,
+          14.469914040114611
+        ],
+        [
+          90.83094555873924,
+          25.787965616045845
+        ],
+        [
+          79.08309455587393,
+          31.088825214899714
+        ],
+        [
+          79.79942693409741,
+          40.83094555873926
+        ],
+        [
+          88.25214899713467,
+          45.12893982808023
+        ]
+      ],
+      "polygon_pixels": [
+        [
+          937,
+          502
+        ],
+        [
+          1023,
+          530
+        ],
+        [
+          1017,
+          128
+        ],
+        [
+          983,
+          148
+        ],
+        [
+          930,
+          264
+        ],
+        [
+          810,
+          318
+        ],
+        [
+          817,
+          418
+        ],
+        [
+          904,
+          462
+        ]
+      ],
+      "bbox": {
+        "x_min": 810,
+        "y_min": 128,
+        "x_max": 1023,
+        "y_max": 530
+      }
+    },
+    {
+      "polygon_id": "4PgUcHLWIY",
+      "object_id": "personalitem_1",
+      "class_name": "PersonalItem",
+      "image_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "polygon_percent": [
+        [
+          0.42979942693409745,
+          38.25214899713467
+        ],
+        [
+          7.4498567335243555,
+          37.392550143266476
+        ],
+        [
+          36.81948424068768,
+          29.369627507163326
+        ],
+        [
+          39.82808022922636,
+          22.492836676217763
+        ],
+        [
+          22.636103151862464,
+          14.469914040114611
+        ],
+        [
+          18.05157593123209,
+          12.320916905444127
+        ],
+        [
+          6.446991404011461,
+          11.60458452722063
+        ],
+        [
+          0.42979942693409745,
+          14.183381088825215
+        ]
+      ],
+      "polygon_pixels": [
+        [
+          4,
+          392
+        ],
+        [
+          76,
+          383
+        ],
+        [
+          377,
+          301
+        ],
+        [
+          408,
+          230
+        ],
+        [
+          232,
+          148
+        ],
+        [
+          185,
+          126
+        ],
+        [
+          66,
+          119
+        ],
+        [
+          4,
+          145
+        ]
+      ],
+      "bbox": {
+        "x_min": 4,
+        "y_min": 119,
+        "x_max": 408,
+        "y_max": 392
+      }
+    },
+    {
+      "polygon_id": "HlHBO7UZ07",
+      "object_id": "grasssurface_1",
+      "class_name": "GrassSurface",
+      "image_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "polygon_percent": [
+        [
+          1.4326647564469914,
+          99.42693409742121
+        ],
+        [
+          98.99713467048711,
+          98.56733524355302
+        ],
+        [
+          99.2836676217765,
+          19.340974212034386
+        ],
+        [
+          1.002865329512894,
+          24.212034383954155
+        ]
+      ],
+      "polygon_pixels": [
+        [
+          15,
+          1018
+        ],
+        [
+          1014,
+          1009
+        ],
+        [
+          1017,
+          198
+        ],
+        [
+          10,
+          248
+        ]
+      ],
+      "bbox": {
+        "x_min": 10,
+        "y_min": 198,
+        "x_max": 1017,
+        "y_max": 1018
+      }
+    },
+    {
+      "polygon_id": "w33s0eeIMn",
+      "object_id": "vegetation_1",
+      "class_name": "Vegetation",
+      "image_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "polygon_percent": [
+        [
+          2.5787965616045847,
+          57.163323782234954
+        ],
+        [
+          28.510028653295127,
+          54.44126074498568
+        ],
+        [
+          36.38968481375358,
+          46.84813753581662
+        ],
+        [
+          39.541547277936964,
+          37.96561604584527
+        ],
+        [
+          28.36676217765043,
+          37.106017191977074
+        ],
+        [
+          11.174785100286533,
+          42.26361031518625
+        ],
+        [
+          4.584527220630372,
+          47.277936962750715
+        ],
+        [
+          0.14326647564469913,
+          55.014326647564474
+        ]
+      ],
+      "polygon_pixels": [
+        [
+          26,
+          585
+        ],
+        [
+          292,
+          557
+        ],
+        [
+          373,
+          480
+        ],
+        [
+          405,
+          389
+        ],
+        [
+          290,
+          380
+        ],
+        [
+          114,
+          433
+        ],
+        [
+          47,
+          484
+        ],
+        [
+          1,
+          563
+        ]
+      ],
+      "bbox": {
+        "x_min": 1,
+        "y_min": 380,
+        "x_max": 405,
+        "y_max": 585
+      }
+    }
+  ],
+  "relations": [
+    {
+      "from_polygon_id": "4PgUcHLWIY",
+      "to_polygon_id": "HlHBO7UZ07",
+      "subject_id": "personalitem_1",
+      "object_id": "grasssurface_1",
+      "predicate": "onGroundSurface",
+      "labels": [
+        "onGroundSurface"
+      ],
+      "direction": "right"
+    },
+    {
+      "from_polygon_id": "w33s0eeIMn",
+      "to_polygon_id": "HlHBO7UZ07",
+      "subject_id": "vegetation_1",
+      "object_id": "grasssurface_1",
+      "predicate": "onGroundSurface",
+      "labels": [
+        "onGroundSurface"
+      ],
+      "direction": "right"
+    },
+    {
+      "from_polygon_id": "321vmMd3Yo",
+      "to_polygon_id": "HlHBO7UZ07",
+      "subject_id": "tool_1",
+      "object_id": "grasssurface_1",
+      "predicate": "onGroundSurface",
+      "labels": [
+        "onGroundSurface"
+      ],
+      "direction": "right"
+    },
+    {
+      "from_polygon_id": "9Q1O3pA_b5",
+      "to_polygon_id": "HlHBO7UZ07",
+      "subject_id": "tool_2",
+      "object_id": "grasssurface_1",
+      "predicate": "onGroundSurface",
+      "labels": [
+        "onGroundSurface"
+      ],
+      "direction": "right"
+    },
+    {
+      "from_polygon_id": "QU-iG2nqYU",
+      "to_polygon_id": "HlHBO7UZ07",
+      "subject_id": "humanbodypart_1",
+      "object_id": "grasssurface_1",
+      "predicate": "locatedOn",
+      "labels": [
+        "locatedOn"
+      ],
+      "direction": "right"
+    },
+    {
+      "from_polygon_id": "321vmMd3Yo",
+      "to_polygon_id": "9Q1O3pA_b5",
+      "subject_id": "tool_1",
+      "object_id": "tool_2",
+      "predicate": "touching",
+      "labels": [
+        "touching"
+      ],
+      "direction": "right"
+    },
+    {
+      "from_polygon_id": "9Q1O3pA_b5",
+      "to_polygon_id": "QU-iG2nqYU",
+      "subject_id": "tool_2",
+      "object_id": "humanbodypart_1",
+      "predicate": "touching",
+      "labels": [
+        "touching"
+      ],
+      "direction": "right"
+    },
+    {
+      "from_polygon_id": "w33s0eeIMn",
+      "to_polygon_id": "321vmMd3Yo",
+      "subject_id": "vegetation_1",
+      "object_id": "tool_1",
+      "predicate": "nextTo",
+      "labels": [
+        "nextTo"
+      ],
+      "direction": "right"
+    },
+    {
+      "from_polygon_id": "4PgUcHLWIY",
+      "to_polygon_id": "w33s0eeIMn",
+      "subject_id": "personalitem_1",
+      "object_id": "vegetation_1",
+      "predicate": "near",
+      "labels": [
+        "near"
+      ],
+      "direction": "right"
+    },
+    {
+      "from_polygon_id": "4PgUcHLWIY",
+      "to_polygon_id": "321vmMd3Yo",
+      "subject_id": "personalitem_1",
+      "object_id": "tool_1",
+      "predicate": "near",
+      "labels": [
+        "near"
+      ],
+      "direction": "right"
+    },
+    {
+      "from_polygon_id": "4PgUcHLWIY",
+      "to_polygon_id": "9Q1O3pA_b5",
+      "subject_id": "personalitem_1",
+      "object_id": "tool_2",
+      "predicate": "near",
+      "labels": [
+        "near"
+      ],
+      "direction": "right"
+    },
+    {
+      "from_polygon_id": "4PgUcHLWIY",
+      "to_polygon_id": "QU-iG2nqYU",
+      "subject_id": "personalitem_1",
+      "object_id": "humanbodypart_1",
+      "predicate": "near",
+      "labels": [
+        "near"
+      ],
+      "direction": "right"
+    }
+  ]
+}

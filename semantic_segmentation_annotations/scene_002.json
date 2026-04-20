@@ -1,0 +1,807 @@
+{
+  "scene_id": "scene_002",
+  "image_path": "/data/upload/3/dfadd40f-scene_002.png",
+  "objects": [
+    {
+      "polygon_id": "4CZ1OzpYdU",
+      "object_id": "grasssurface_1",
+      "class_name": "GrassSurface",
+      "image_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "polygon_percent": [
+        [
+          0.42979942693409745,
+          29.799426934097422
+        ],
+        [
+          42.697579737812866,
+          29.572180803393778
+        ],
+        [
+          53.72492836676218,
+          29.512893982808023
+        ],
+        [
+          98.8538681948424,
+          33.3810888252149
+        ],
+        [
+          99.5702005730659,
+          98.42406876790831
+        ],
+        [
+          1.146131805157593,
+          99.2836676217765
+        ]
+      ],
+      "polygon_pixels": [
+        [
+          4,
+          305
+        ],
+        [
+          437,
+          303
+        ],
+        [
+          550,
+          302
+        ],
+        [
+          1012,
+          342
+        ],
+        [
+          1020,
+          1008
+        ],
+        [
+          12,
+          1017
+        ]
+      ],
+      "bbox": {
+        "x_min": 4,
+        "y_min": 302,
+        "x_max": 1020,
+        "y_max": 1017
+      }
+    },
+    {
+      "polygon_id": "jaWPVpTGfg",
+      "object_id": "house_1",
+      "class_name": "House",
+      "image_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "polygon_percent": [
+        [
+          40.97421203438395,
+          0.42979942693409745
+        ],
+        [
+          99.8567335243553,
+          0.5730659025787965
+        ],
+        [
+          99.5702005730659,
+          30.08595988538682
+        ],
+        [
+          87.17431997856139,
+          29.456727367899283
+        ],
+        [
+          43.12320916905444,
+          27.22063037249284
+        ]
+      ],
+      "polygon_pixels": [
+        [
+          420,
+          4
+        ],
+        [
+          1023,
+          6
+        ],
+        [
+          1020,
+          308
+        ],
+        [
+          893,
+          302
+        ],
+        [
+          442,
+          279
+        ]
+      ],
+      "bbox": {
+        "x_min": 420,
+        "y_min": 4,
+        "x_max": 1023,
+        "y_max": 308
+      }
+    },
+    {
+      "polygon_id": "rATYeasoFP",
+      "object_id": "soilsurface_1",
+      "class_name": "SoilSurface",
+      "image_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "polygon_percent": [
+        [
+          1.002865329512894,
+          26.21776504297994
+        ],
+        [
+          43.409742120343836,
+          26.93409742120344
+        ],
+        [
+          99.8567335243553,
+          30.659025787965614
+        ],
+        [
+          99.8567335243553,
+          33.09455587392551
+        ],
+        [
+          20.057306590257877,
+          28.366762177650433
+        ],
+        [
+          0.1815343156558569,
+          28.600519898796957
+        ]
+      ],
+      "polygon_pixels": [
+        [
+          10,
+          268
+        ],
+        [
+          445,
+          276
+        ],
+        [
+          1023,
+          314
+        ],
+        [
+          1023,
+          339
+        ],
+        [
+          205,
+          290
+        ],
+        [
+          2,
+          293
+        ]
+      ],
+      "bbox": {
+        "x_min": 2,
+        "y_min": 268,
+        "x_max": 1023,
+        "y_max": 339
+      }
+    },
+    {
+      "polygon_id": "kYRnCKJGpU",
+      "object_id": "house_2",
+      "class_name": "House",
+      "image_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "polygon_percent": [
+        [
+          22.77936962750716,
+          13.32378223495702
+        ],
+        [
+          39.541547277936964,
+          10.744985673352435
+        ],
+        [
+          40.97421203438395,
+          11.318051575931232
+        ],
+        [
+          41.833810888252145,
+          25.501432664756447
+        ],
+        [
+          23.925501432664756,
+          25.07163323782235
+        ]
+      ],
+      "polygon_pixels": [
+        [
+          233,
+          136
+        ],
+        [
+          405,
+          110
+        ],
+        [
+          420,
+          116
+        ],
+        [
+          428,
+          261
+        ],
+        [
+          245,
+          257
+        ]
+      ],
+      "bbox": {
+        "x_min": 233,
+        "y_min": 110,
+        "x_max": 428,
+        "y_max": 261
+      }
+    },
+    {
+      "polygon_id": "MZh5ja7o0D",
+      "object_id": "vegetation_1",
+      "class_name": "Vegetation",
+      "image_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "polygon_percent": [
+        [
+          0.14326647564469913,
+          3.0085959885386817
+        ],
+        [
+          28.653295128939828,
+          3.5816618911174785
+        ],
+        [
+          29.083094555873924,
+          25.214899713467048
+        ],
+        [
+          1.5759312320916905,
+          24.92836676217765
+        ]
+      ],
+      "polygon_pixels": [
+        [
+          1,
+          31
+        ],
+        [
+          293,
+          37
+        ],
+        [
+          298,
+          258
+        ],
+        [
+          16,
+          255
+        ]
+      ],
+      "bbox": {
+        "x_min": 1,
+        "y_min": 31,
+        "x_max": 298,
+        "y_max": 258
+      }
+    },
+    {
+      "polygon_id": "rwmkJLKoA-",
+      "object_id": "sky_1",
+      "class_name": "Sky",
+      "image_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "polygon_percent": [
+        [
+          23.78223495702006,
+          3.29512893982808
+        ],
+        [
+          40.68767908309456,
+          3.29512893982808
+        ],
+        [
+          40.40114613180516,
+          15.616045845272206
+        ],
+        [
+          25.358166189111746,
+          16.6189111747851
+        ],
+        [
+          23.925501432664756,
+          4.7277936962750715
+        ]
+      ],
+      "polygon_pixels": [
+        [
+          244,
+          34
+        ],
+        [
+          417,
+          34
+        ],
+        [
+          414,
+          160
+        ],
+        [
+          260,
+          170
+        ],
+        [
+          245,
+          48
+        ]
+      ],
+      "bbox": {
+        "x_min": 244,
+        "y_min": 34,
+        "x_max": 417,
+        "y_max": 170
+      }
+    },
+    {
+      "polygon_id": "RVrGPabPbq",
+      "object_id": "tool_1",
+      "class_name": "Tool",
+      "image_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "polygon_percent": [
+        [
+          4.584527220630372,
+          42.550143266475644
+        ],
+        [
+          13.753581661891118,
+          42.550143266475644
+        ],
+        [
+          21.20343839541547,
+          56.30372492836676
+        ],
+        [
+          23.925501432664756,
+          68.19484240687679
+        ],
+        [
+          0.5730659025787965,
+          73.35243553008596
+        ],
+        [
+          2.722063037249284,
+          56.16045845272206
+        ]
+      ],
+      "polygon_pixels": [
+        [
+          47,
+          436
+        ],
+        [
+          141,
+          436
+        ],
+        [
+          217,
+          577
+        ],
+        [
+          245,
+          698
+        ],
+        [
+          6,
+          751
+        ],
+        [
+          28,
+          575
+        ]
+      ],
+      "bbox": {
+        "x_min": 6,
+        "y_min": 436,
+        "x_max": 245,
+        "y_max": 751
+      }
+    },
+    {
+      "polygon_id": "BsckePxrE_",
+      "object_id": "tool_2",
+      "class_name": "Tool",
+      "image_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "polygon_percent": [
+        [
+          22.349570200573066,
+          53.86819484240688
+        ],
+        [
+          52.29226361031518,
+          54.58452722063038
+        ],
+        [
+          52.43553008595988,
+          49.28366762177651
+        ],
+        [
+          44.985673352435526,
+          44.412607449856736
+        ],
+        [
+          51.43266475644699,
+          35.53008595988539
+        ],
+        [
+          52.00573065902579,
+          33.0945558739255
+        ],
+        [
+          49.570200573065904,
+          32.23495702005731
+        ],
+        [
+          36.53295128939828,
+          43.40974212034384
+        ],
+        [
+          25.644699140401144,
+          43.40974212034384
+        ],
+        [
+          22.636103151862464,
+          44.84240687679083
+        ]
+      ],
+      "polygon_pixels": [
+        [
+          229,
+          552
+        ],
+        [
+          535,
+          559
+        ],
+        [
+          537,
+          505
+        ],
+        [
+          461,
+          455
+        ],
+        [
+          527,
+          364
+        ],
+        [
+          533,
+          339
+        ],
+        [
+          508,
+          330
+        ],
+        [
+          374,
+          445
+        ],
+        [
+          263,
+          445
+        ],
+        [
+          232,
+          459
+        ]
+      ],
+      "bbox": {
+        "x_min": 229,
+        "y_min": 330,
+        "x_max": 537,
+        "y_max": 559
+      }
+    },
+    {
+      "polygon_id": "XyzZJdxobr",
+      "object_id": "personalitem_1",
+      "class_name": "PersonalItem",
+      "image_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "polygon_percent": [
+        [
+          53.581661891117484,
+          45.12893982808023
+        ],
+        [
+          67.1919770773639,
+          51.719197707736384
+        ],
+        [
+          76.79083094555874,
+          54.72779369627507
+        ],
+        [
+          81.66189111747852,
+          58.45272206303726
+        ],
+        [
+          98.99713467048711,
+          59.31232091690545
+        ],
+        [
+          99.5702005730659,
+          40.40114613180516
+        ],
+        [
+          92.12034383954155,
+          34.097421203438394
+        ],
+        [
+          70.05730659025788,
+          33.3810888252149
+        ],
+        [
+          55.44412607449857,
+          38.96848137535817
+        ],
+        [
+          52.865329512893986,
+          40.97421203438395
+        ]
+      ],
+      "polygon_pixels": [
+        [
+          549,
+          462
+        ],
+        [
+          688,
+          530
+        ],
+        [
+          786,
+          560
+        ],
+        [
+          836,
+          599
+        ],
+        [
+          1014,
+          607
+        ],
+        [
+          1020,
+          414
+        ],
+        [
+          943,
+          349
+        ],
+        [
+          717,
+          342
+        ],
+        [
+          568,
+          399
+        ],
+        [
+          541,
+          420
+        ]
+      ],
+      "bbox": {
+        "x_min": 541,
+        "y_min": 342,
+        "x_max": 1020,
+        "y_max": 607
+      }
+    },
+    {
+      "polygon_id": "TE4iOL8pWX",
+      "object_id": "tool_3",
+      "class_name": "Tool",
+      "image_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "polygon_percent": [
+        [
+          71.06017191977078,
+          21.20343839541547
+        ],
+        [
+          73.49570200573066,
+          21.20343839541547
+        ],
+        [
+          73.20916905444126,
+          28.08022922636103
+        ],
+        [
+          68.33810888252148,
+          27.936962750716333
+        ]
+      ],
+      "polygon_pixels": [
+        [
+          728,
+          217
+        ],
+        [
+          753,
+          217
+        ],
+        [
+          750,
+          288
+        ],
+        [
+          700,
+          286
+        ]
+      ],
+      "bbox": {
+        "x_min": 700,
+        "y_min": 217,
+        "x_max": 753,
+        "y_max": 288
+      }
+    }
+  ],
+  "relations": [
+    {
+      "from_polygon_id": "XyzZJdxobr",
+      "to_polygon_id": "4CZ1OzpYdU",
+      "subject_id": "personalitem_1",
+      "object_id": "grasssurface_1",
+      "predicate": "onGroundSurface",
+      "labels": [
+        "onGroundSurface"
+      ],
+      "direction": "right"
+    },
+    {
+      "from_polygon_id": "BsckePxrE_",
+      "to_polygon_id": "4CZ1OzpYdU",
+      "subject_id": "tool_2",
+      "object_id": "grasssurface_1",
+      "predicate": "onGroundSurface",
+      "labels": [
+        "onGroundSurface"
+      ],
+      "direction": "right"
+    },
+    {
+      "from_polygon_id": "RVrGPabPbq",
+      "to_polygon_id": "4CZ1OzpYdU",
+      "subject_id": "tool_1",
+      "object_id": "grasssurface_1",
+      "predicate": "onGroundSurface",
+      "labels": [
+        "onGroundSurface"
+      ],
+      "direction": "right"
+    },
+    {
+      "from_polygon_id": "RVrGPabPbq",
+      "to_polygon_id": "BsckePxrE_",
+      "subject_id": "tool_1",
+      "object_id": "tool_2",
+      "predicate": "nextTo",
+      "labels": [
+        "nextTo"
+      ],
+      "direction": "right"
+    },
+    {
+      "from_polygon_id": "BsckePxrE_",
+      "to_polygon_id": "XyzZJdxobr",
+      "subject_id": "tool_2",
+      "object_id": "personalitem_1",
+      "predicate": "nextTo",
+      "labels": [
+        "nextTo"
+      ],
+      "direction": "right"
+    },
+    {
+      "from_polygon_id": "TE4iOL8pWX",
+      "to_polygon_id": "jaWPVpTGfg",
+      "subject_id": "tool_3",
+      "object_id": "house_1",
+      "predicate": "touching",
+      "labels": [
+        "touching"
+      ],
+      "direction": "right"
+    },
+    {
+      "from_polygon_id": "TE4iOL8pWX",
+      "to_polygon_id": "rATYeasoFP",
+      "subject_id": "tool_3",
+      "object_id": "soilsurface_1",
+      "predicate": "onGroundSurface",
+      "labels": [
+        "onGroundSurface"
+      ],
+      "direction": "right"
+    },
+    {
+      "from_polygon_id": "rwmkJLKoA-",
+      "to_polygon_id": "jaWPVpTGfg",
+      "subject_id": "sky_1",
+      "object_id": "house_1",
+      "predicate": "behind",
+      "labels": [
+        "behind"
+      ],
+      "direction": "right"
+    },
+    {
+      "from_polygon_id": "kYRnCKJGpU",
+      "to_polygon_id": "MZh5ja7o0D",
+      "subject_id": "house_2",
+      "object_id": "vegetation_1",
+      "predicate": "behind",
+      "labels": [
+        "behind"
+      ],
+      "direction": "right"
+    },
+    {
+      "from_polygon_id": "jaWPVpTGfg",
+      "to_polygon_id": "kYRnCKJGpU",
+      "subject_id": "house_1",
+      "object_id": "house_2",
+      "predicate": "inFrontOf",
+      "labels": [
+        "inFrontOf"
+      ],
+      "direction": "right"
+    },
+    {
+      "from_polygon_id": "MZh5ja7o0D",
+      "to_polygon_id": "jaWPVpTGfg",
+      "subject_id": "vegetation_1",
+      "object_id": "house_1",
+      "predicate": "near",
+      "labels": [
+        "near"
+      ],
+      "direction": "right"
+    }
+  ]
+}

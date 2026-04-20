@@ -1,0 +1,746 @@
+{
+  "scene_id": "scene_011",
+  "image_path": "/data/upload/3/641e4413-scene_011.png",
+  "objects": [
+    {
+      "polygon_id": "nCyunn4aro",
+      "object_id": "personalitem_1",
+      "class_name": "PersonalItem",
+      "image_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "polygon_percent": [
+        [
+          50,
+          65.18624641833811
+        ],
+        [
+          75.78796561604585,
+          67.0487106017192
+        ],
+        [
+          88.96848137535817,
+          64.46991404011462
+        ],
+        [
+          96.99140401146131,
+          59.02578796561605
+        ],
+        [
+          95.12893982808023,
+          41.977077363896846
+        ],
+        [
+          75.78796561604585,
+          38.108882521489974
+        ],
+        [
+          64.04011461318052,
+          46.99140401146132
+        ],
+        [
+          48.28080229226361,
+          52.14899713467048
+        ],
+        [
+          45.702005730659025,
+          59.598853868194844
+        ]
+      ],
+      "polygon_pixels": [
+        [
+          512,
+          668
+        ],
+        [
+          776,
+          687
+        ],
+        [
+          911,
+          660
+        ],
+        [
+          993,
+          604
+        ],
+        [
+          974,
+          430
+        ],
+        [
+          776,
+          390
+        ],
+        [
+          656,
+          481
+        ],
+        [
+          494,
+          534
+        ],
+        [
+          468,
+          610
+        ]
+      ],
+      "bbox": {
+        "x_min": 468,
+        "y_min": 390,
+        "x_max": 993,
+        "y_max": 687
+      }
+    },
+    {
+      "polygon_id": "Zq5Lp9DGRZ",
+      "object_id": "house_1",
+      "class_name": "House",
+      "image_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "polygon_percent": [
+        [
+          1.002865329512894,
+          41.260744985673355
+        ],
+        [
+          34.38395415472779,
+          41.40401146131805
+        ],
+        [
+          37.96561604584527,
+          16.189111747851005
+        ],
+        [
+          35.816618911174785,
+          8.022922636103152
+        ],
+        [
+          0.28653295128939826,
+          3.8681948424068766
+        ]
+      ],
+      "polygon_pixels": [
+        [
+          10,
+          423
+        ],
+        [
+          352,
+          424
+        ],
+        [
+          389,
+          166
+        ],
+        [
+          367,
+          82
+        ],
+        [
+          3,
+          40
+        ]
+      ],
+      "bbox": {
+        "x_min": 3,
+        "y_min": 40,
+        "x_max": 389,
+        "y_max": 424
+      }
+    },
+    {
+      "polygon_id": "t7aAKxA7X6",
+      "object_id": "house_2",
+      "class_name": "House",
+      "image_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "polygon_percent": [
+        [
+          59.31232091690545,
+          42.12034383954155
+        ],
+        [
+          72.20630372492836,
+          44.84240687679083
+        ],
+        [
+          97.42120343839542,
+          44.69914040114613
+        ],
+        [
+          99.42693409742121,
+          44.126074498567334
+        ],
+        [
+          99.42693409742121,
+          15.616045845272206
+        ],
+        [
+          65.90257879656161,
+          10.888252148997136
+        ],
+        [
+          59.598853868194844,
+          22.77936962750716
+        ]
+      ],
+      "polygon_pixels": [
+        [
+          607,
+          431
+        ],
+        [
+          739,
+          459
+        ],
+        [
+          998,
+          458
+        ],
+        [
+          1018,
+          452
+        ],
+        [
+          1018,
+          160
+        ],
+        [
+          675,
+          111
+        ],
+        [
+          610,
+          233
+        ]
+      ],
+      "bbox": {
+        "x_min": 607,
+        "y_min": 111,
+        "x_max": 1018,
+        "y_max": 459
+      }
+    },
+    {
+      "polygon_id": "EZyx79LY1t",
+      "object_id": "vegetation_1",
+      "class_name": "Vegetation",
+      "image_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "polygon_percent": [
+        [
+          22.636103151862464,
+          40.68767908309456
+        ],
+        [
+          32.664756446991404,
+          41.117478510028654
+        ],
+        [
+          32.37822349570201,
+          36.38968481375358
+        ],
+        [
+          27.363896848137536,
+          33.0945558739255
+        ],
+        [
+          22.349570200573066,
+          35.816618911174785
+        ]
+      ],
+      "polygon_pixels": [
+        [
+          232,
+          417
+        ],
+        [
+          334,
+          421
+        ],
+        [
+          332,
+          373
+        ],
+        [
+          280,
+          339
+        ],
+        [
+          229,
+          367
+        ]
+      ],
+      "bbox": {
+        "x_min": 229,
+        "y_min": 339,
+        "x_max": 334,
+        "y_max": 421
+      }
+    },
+    {
+      "polygon_id": "x1xpdyAZ58",
+      "object_id": "vegetation_2",
+      "class_name": "Vegetation",
+      "image_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "polygon_percent": [
+        [
+          35.816618911174785,
+          39.97134670487106
+        ],
+        [
+          53.29512893982808,
+          41.260744985673355
+        ],
+        [
+          51.28939828080229,
+          33.2378223495702
+        ],
+        [
+          48.99713467048711,
+          25.358166189111746
+        ],
+        [
+          35.673352435530084,
+          18.76790830945559
+        ]
+      ],
+      "polygon_pixels": [
+        [
+          367,
+          409
+        ],
+        [
+          546,
+          423
+        ],
+        [
+          525,
+          340
+        ],
+        [
+          502,
+          260
+        ],
+        [
+          365,
+          192
+        ]
+      ],
+      "bbox": {
+        "x_min": 365,
+        "y_min": 192,
+        "x_max": 546,
+        "y_max": 423
+      }
+    },
+    {
+      "polygon_id": "UIRCH_YOm9",
+      "object_id": "vegetation_3",
+      "class_name": "Vegetation",
+      "image_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "polygon_percent": [
+        [
+          6.303724928366762,
+          41.117478510028654
+        ],
+        [
+          9.312320916905444,
+          40.257879656160455
+        ],
+        [
+          7.593123209169055,
+          34.38395415472779
+        ],
+        [
+          2.148997134670487,
+          33.95415472779369
+        ]
+      ],
+      "polygon_pixels": [
+        [
+          65,
+          421
+        ],
+        [
+          95,
+          412
+        ],
+        [
+          78,
+          352
+        ],
+        [
+          22,
+          348
+        ]
+      ],
+      "bbox": {
+        "x_min": 22,
+        "y_min": 348,
+        "x_max": 95,
+        "y_max": 421
+      }
+    },
+    {
+      "polygon_id": "Z8vsoXp5IZ",
+      "object_id": "vegetation_4",
+      "class_name": "Vegetation",
+      "image_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "polygon_percent": [
+        [
+          56.01719197707736,
+          40.257879656160455
+        ],
+        [
+          60.17191977077364,
+          40.83094555873926
+        ],
+        [
+          59.45558739255014,
+          27.650429799426934
+        ],
+        [
+          55.014326647564474,
+          25.787965616045845
+        ]
+      ],
+      "polygon_pixels": [
+        [
+          574,
+          412
+        ],
+        [
+          616,
+          418
+        ],
+        [
+          609,
+          283
+        ],
+        [
+          563,
+          264
+        ]
+      ],
+      "bbox": {
+        "x_min": 563,
+        "y_min": 264,
+        "x_max": 616,
+        "y_max": 418
+      }
+    },
+    {
+      "polygon_id": "Q-FcpSTZ2p",
+      "object_id": "grasssurface_1",
+      "class_name": "GrassSurface",
+      "image_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "polygon_percent": [
+        [
+          0.7163323782234957,
+          98.8538681948424
+        ],
+        [
+          99.42693409742121,
+          99.7134670487106
+        ],
+        [
+          97.99426934097421,
+          44.84240687679083
+        ],
+        [
+          65.61604584527221,
+          44.55587392550143
+        ],
+        [
+          56.59025787965616,
+          41.977077363896846
+        ],
+        [
+          1.002865329512894,
+          41.54727793696275
+        ]
+      ],
+      "polygon_pixels": [
+        [
+          7,
+          1012
+        ],
+        [
+          1018,
+          1021
+        ],
+        [
+          1003,
+          459
+        ],
+        [
+          672,
+          456
+        ],
+        [
+          579,
+          430
+        ],
+        [
+          10,
+          425
+        ]
+      ],
+      "bbox": {
+        "x_min": 7,
+        "y_min": 425,
+        "x_max": 1018,
+        "y_max": 1021
+      }
+    },
+    {
+      "polygon_id": "0bFYvNg1xF",
+      "object_id": "sky_1",
+      "class_name": "Sky",
+      "image_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "polygon_percent": [
+        [
+          1.002865329512894,
+          2.5787965616045847
+        ],
+        [
+          93.55300859598854,
+          2.4355300859598854
+        ],
+        [
+          85.81661891117479,
+          12.177650429799428
+        ],
+        [
+          64.89971346704871,
+          11.60458452722063
+        ],
+        [
+          58.45272206303726,
+          25.787965616045845
+        ],
+        [
+          37.106017191977074,
+          23.35243553008596
+        ],
+        [
+          36.96275071633238,
+          9.742120343839542
+        ],
+        [
+          2.722063037249284,
+          4.297994269340974
+        ]
+      ],
+      "polygon_pixels": [
+        [
+          10,
+          26
+        ],
+        [
+          958,
+          25
+        ],
+        [
+          879,
+          125
+        ],
+        [
+          665,
+          119
+        ],
+        [
+          599,
+          264
+        ],
+        [
+          380,
+          239
+        ],
+        [
+          378,
+          100
+        ],
+        [
+          28,
+          44
+        ]
+      ],
+      "bbox": {
+        "x_min": 10,
+        "y_min": 25,
+        "x_max": 958,
+        "y_max": 264
+      }
+    }
+  ],
+  "relations": [
+    {
+      "from_polygon_id": "nCyunn4aro",
+      "to_polygon_id": "Q-FcpSTZ2p",
+      "subject_id": "personalitem_1",
+      "object_id": "grasssurface_1",
+      "predicate": "onGroundSurface",
+      "labels": [
+        "onGroundSurface"
+      ],
+      "direction": "right"
+    },
+    {
+      "from_polygon_id": "Zq5Lp9DGRZ",
+      "to_polygon_id": "Q-FcpSTZ2p",
+      "subject_id": "house_1",
+      "object_id": "grasssurface_1",
+      "predicate": "onGroundSurface",
+      "labels": [
+        "onGroundSurface"
+      ],
+      "direction": "right"
+    },
+    {
+      "from_polygon_id": "t7aAKxA7X6",
+      "to_polygon_id": "Q-FcpSTZ2p",
+      "subject_id": "house_2",
+      "object_id": "grasssurface_1",
+      "predicate": "onGroundSurface",
+      "labels": [
+        "onGroundSurface"
+      ],
+      "direction": "right"
+    },
+    {
+      "from_polygon_id": "nCyunn4aro",
+      "to_polygon_id": "t7aAKxA7X6",
+      "subject_id": "personalitem_1",
+      "object_id": "house_2",
+      "predicate": "inFrontOf",
+      "labels": [
+        "inFrontOf"
+      ],
+      "direction": "right"
+    },
+    {
+      "from_polygon_id": "Zq5Lp9DGRZ",
+      "to_polygon_id": "t7aAKxA7X6",
+      "subject_id": "house_1",
+      "object_id": "house_2",
+      "predicate": "near",
+      "labels": [
+        "near"
+      ],
+      "direction": "right"
+    },
+    {
+      "from_polygon_id": "Z8vsoXp5IZ",
+      "to_polygon_id": "t7aAKxA7X6",
+      "subject_id": "vegetation_4",
+      "object_id": "house_2",
+      "predicate": "touching",
+      "labels": [
+        "touching"
+      ],
+      "direction": "right"
+    },
+    {
+      "from_polygon_id": "x1xpdyAZ58",
+      "to_polygon_id": "Zq5Lp9DGRZ",
+      "subject_id": "vegetation_2",
+      "object_id": "house_1",
+      "predicate": "touching",
+      "labels": [
+        "touching"
+      ],
+      "direction": "right"
+    },
+    {
+      "from_polygon_id": "EZyx79LY1t",
+      "to_polygon_id": "Zq5Lp9DGRZ",
+      "subject_id": "vegetation_1",
+      "object_id": "house_1",
+      "predicate": "inFrontOf",
+      "labels": [
+        "inFrontOf"
+      ],
+      "direction": "right"
+    },
+    {
+      "from_polygon_id": "UIRCH_YOm9",
+      "to_polygon_id": "Zq5Lp9DGRZ",
+      "subject_id": "vegetation_3",
+      "object_id": "house_1",
+      "predicate": "inFrontOf",
+      "labels": [
+        "inFrontOf"
+      ],
+      "direction": "right"
+    },
+    {
+      "from_polygon_id": "EZyx79LY1t",
+      "to_polygon_id": "x1xpdyAZ58",
+      "subject_id": "vegetation_1",
+      "object_id": "vegetation_2",
+      "predicate": "nextTo",
+      "labels": [
+        "nextTo"
+      ],
+      "direction": "right"
+    },
+    {
+      "from_polygon_id": "x1xpdyAZ58",
+      "to_polygon_id": "Z8vsoXp5IZ",
+      "subject_id": "vegetation_2",
+      "object_id": "vegetation_4",
+      "predicate": "near",
+      "labels": [
+        "near"
+      ],
+      "direction": "right"
+    },
+    {
+      "from_polygon_id": "0bFYvNg1xF",
+      "to_polygon_id": "Zq5Lp9DGRZ",
+      "subject_id": "sky_1",
+      "object_id": "house_1",
+      "predicate": "behind",
+      "labels": [
+        "behind"
+      ],
+      "direction": "right"
+    },
+    {
+      "from_polygon_id": "0bFYvNg1xF",
+      "to_polygon_id": "t7aAKxA7X6",
+      "subject_id": "sky_1",
+      "object_id": "house_2",
+      "predicate": "behind",
+      "labels": [
+        "behind"
+      ],
+      "direction": "right"
+    }
+  ]
+}

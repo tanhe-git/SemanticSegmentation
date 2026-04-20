@@ -1,0 +1,320 @@
+{
+  "scene_id": "scene_008",
+  "image_path": "/data/upload/3/25f2ccc0-scene_008.png",
+  "objects": [
+    {
+      "polygon_id": "i0LrBOGqdN",
+      "object_id": "animal_1",
+      "class_name": "Animal",
+      "image_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "polygon_percent": [
+        [
+          2.005730659025788,
+          42.550143266475644
+        ],
+        [
+          31.37535816618911,
+          45.27220630372493
+        ],
+        [
+          40.54441260744986,
+          39.97134670487106
+        ],
+        [
+          39.68481375358166,
+          20.057306590257877
+        ],
+        [
+          22.206303724928368,
+          21.346704871060172
+        ],
+        [
+          9.598853868194842,
+          28.223495702005728
+        ],
+        [
+          1.146131805157593,
+          34.240687679083095
+        ]
+      ],
+      "polygon_pixels": [
+        [
+          21,
+          436
+        ],
+        [
+          321,
+          464
+        ],
+        [
+          415,
+          409
+        ],
+        [
+          406,
+          205
+        ],
+        [
+          227,
+          219
+        ],
+        [
+          98,
+          289
+        ],
+        [
+          12,
+          351
+        ]
+      ],
+      "bbox": {
+        "x_min": 12,
+        "y_min": 205,
+        "x_max": 415,
+        "y_max": 464
+      }
+    },
+    {
+      "polygon_id": "QkA0zEJReR",
+      "object_id": "personalitem_1",
+      "class_name": "PersonalItem",
+      "image_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "polygon_percent": [
+        [
+          60.31518624641834,
+          54.297994269340975
+        ],
+        [
+          72.20630372492836,
+          60.17191977077364
+        ],
+        [
+          92.83667621776505,
+          57.879656160458445
+        ],
+        [
+          93.69627507163324,
+          48.42406876790831
+        ],
+        [
+          78.65329512893983,
+          41.69054441260745
+        ],
+        [
+          62.32091690544412,
+          44.412607449856736
+        ]
+      ],
+      "polygon_pixels": [
+        [
+          618,
+          556
+        ],
+        [
+          739,
+          616
+        ],
+        [
+          951,
+          593
+        ],
+        [
+          959,
+          496
+        ],
+        [
+          805,
+          427
+        ],
+        [
+          638,
+          455
+        ]
+      ],
+      "bbox": {
+        "x_min": 618,
+        "y_min": 427,
+        "x_max": 959,
+        "y_max": 616
+      }
+    },
+    {
+      "polygon_id": "86MFigS2vW",
+      "object_id": "vegetation_1",
+      "class_name": "Vegetation",
+      "image_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "polygon_percent": [
+        [
+          0.5730659025787965,
+          16.189111747851005
+        ],
+        [
+          30.659025787965614,
+          21.346704871060172
+        ],
+        [
+          41.260744985673355,
+          21.63323782234957
+        ],
+        [
+          37.392550143266476,
+          13.753581661891118
+        ],
+        [
+          16.7621776504298,
+          6.160458452722064
+        ],
+        [
+          0.42979942693409745,
+          6.017191977077363
+        ]
+      ],
+      "polygon_pixels": [
+        [
+          6,
+          166
+        ],
+        [
+          314,
+          219
+        ],
+        [
+          423,
+          222
+        ],
+        [
+          383,
+          141
+        ],
+        [
+          172,
+          63
+        ],
+        [
+          4,
+          62
+        ]
+      ],
+      "bbox": {
+        "x_min": 4,
+        "y_min": 62,
+        "x_max": 423,
+        "y_max": 222
+      }
+    },
+    {
+      "polygon_id": "mNl4nOVR-t",
+      "object_id": "grasssurface_1",
+      "class_name": "GrassSurface",
+      "image_size": {
+        "width": 1024,
+        "height": 1024
+      },
+      "polygon_percent": [
+        [
+          2.005730659025788,
+          98.71060171919771
+        ],
+        [
+          99.14040114613181,
+          98.56733524355302
+        ],
+        [
+          96.99140401146131,
+          34.81375358166189
+        ],
+        [
+          40.97421203438395,
+          31.51862464183381
+        ],
+        [
+          1.4326647564469914,
+          32.09169054441261
+        ]
+      ],
+      "polygon_pixels": [
+        [
+          21,
+          1011
+        ],
+        [
+          1015,
+          1009
+        ],
+        [
+          993,
+          356
+        ],
+        [
+          420,
+          323
+        ],
+        [
+          15,
+          329
+        ]
+      ],
+      "bbox": {
+        "x_min": 15,
+        "y_min": 323,
+        "x_max": 1015,
+        "y_max": 1011
+      }
+    }
+  ],
+  "relations": [
+    {
+      "from_polygon_id": "i0LrBOGqdN",
+      "to_polygon_id": "mNl4nOVR-t",
+      "subject_id": "animal_1",
+      "object_id": "grasssurface_1",
+      "predicate": "locatedOn",
+      "labels": [
+        "locatedOn"
+      ],
+      "direction": "right"
+    },
+    {
+      "from_polygon_id": "QkA0zEJReR",
+      "to_polygon_id": "mNl4nOVR-t",
+      "subject_id": "personalitem_1",
+      "object_id": "grasssurface_1",
+      "predicate": "onGroundSurface",
+      "labels": [
+        "onGroundSurface"
+      ],
+      "direction": "right"
+    },
+    {
+      "from_polygon_id": "i0LrBOGqdN",
+      "to_polygon_id": "QkA0zEJReR",
+      "subject_id": "animal_1",
+      "object_id": "personalitem_1",
+      "predicate": "near",
+      "labels": [
+        "near"
+      ],
+      "direction": "right"
+    },
+    {
+      "from_polygon_id": "i0LrBOGqdN",
+      "to_polygon_id": "86MFigS2vW",
+      "subject_id": "animal_1",
+      "object_id": "vegetation_1",
+      "predicate": "inFrontOf",
+      "labels": [
+        "inFrontOf"
+      ],
+      "direction": "right"
+    }
+  ]
+}
