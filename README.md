@@ -10,6 +10,6 @@ This repository provides the main semantic and visual artifacts used in the proo
 
 - ontology
 - SHACL shapes
-- example scene graphs
-- example images
+- scene graphs
+- images
 - semantic segmentation annotations
