@@ -6,10 +6,10 @@ The repository is intended to support transparency and inspection of the method 
 
 This repository provides the main semantic and visual artifacts used in the proof of concept. It currently does not include the workflow implementation code.
 
-## Repository Structure
-.
-├── ontology/
-├── shacl/
-├── scene-graphs/
-├── images/
-└── segmentations/
+## Included Resources
+
+- ontology
+- SHACL shapes
+- example scene graphs
+- example images
+- semantic segmentation annotations
